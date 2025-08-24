@@ -20,8 +20,6 @@
 
 ## Wiring Overview
 
-![ESP32 Dual SPI Circuit](Assets/esp32_dual_spi_circuit.png)
-
 **NRF24 Modules:**  
 - HSPI (Module 1) → `CE: 26`, `CS: 15`, `SCK: 14`, `MOSI: 13`, `MISO: 12`  
 - VSPI (Module 2) → `CE: 4`, `CS: 2`, `SCK: 18`, `MOSI: 23`, `MISO: 19`  
