@@ -4,7 +4,6 @@
 #include "esp_bt.h"
 #include "esp_wifi.h"
 
-// LCD
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // Change 0x27 to 0x3F if your LCD has a different I2C address
@@ -68,7 +67,7 @@ void setup() {
 void initSP() {
   sp = new SPIClass(VSPI);
   sp->begin();
-  radio1.begin(sp);   // initialize radio on VSPI bus
+  radio1.begin(sp);   
 
   if (!radio1.isChipConnected()) {
     Serial.println("VSPI NRF24 not detected!");
@@ -109,7 +108,7 @@ void initHP() {
   } else {
     Serial.println("HSPI couldn't start !!!");
     lcd.setCursor(0, 1);
-    lcd.print("HSPI Jammer fail");
+    lcd.print("HSPI fail");
   }
 }
 
