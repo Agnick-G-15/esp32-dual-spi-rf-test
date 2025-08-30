@@ -22,7 +22,10 @@
 - 2 × NRF24L01 modules
 - 16×2 I2C LCD display
 - Jumper wires and breadboard
+````
+![lcd](https://github.com/user-attachments/assets/1756eef5-4ab9-498a-84ca-194853b3343e)
 
+````
 ## Wiring Overview
 
 **NRF24 Modules:**  
@@ -34,14 +37,16 @@
 - `SCL` → ESP32 SCL (e.g., GPIO 22)  
 - `VCC` → 3.3V or 5V (check LCD spec)  
 - `GND` → GND
+````
+## 🔌 Circuit Diagram  
+![image alt](Assests/esp32_dual_spi_circuit.png)
 
+````
 ## Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/yourusername/esp32-dual-spi-rf-test.git
 ````
-## 🔌 Circuit Diagram  
-![image alt](Assests/esp32_dual_spi_circuit.png)
 
 2. Open the project in Arduino IDE or PlatformIO.
 3. Install the required libraries:
