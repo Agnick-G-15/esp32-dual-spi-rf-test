@@ -1,3 +1,8 @@
+![Made with C++](https://img.shields.io/badge/Made%20with-C++-orange?logo=cplusplus)
+![ESP32 Supported](https://img.shields.io/badge/ESP32-Supported-blue?logo=espressif)
+![nRF24L01 Supported](https://img.shields.io/badge/nRF24L01-Supported-blue?logo=https%3A%2F%2Fraw.githubusercontent.com%2Fyouruser%2Frepo%2Fmain%2Fimages%2Fnrf24l01.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 ````markdown
 # ESP32 Dual SPI RF Test Project
 
@@ -35,6 +40,8 @@
 ```bash
 git clone https://github.com/yourusername/esp32-dual-spi-rf-test.git
 ````
+## 🔌 Circuit Diagram  
+![image alt](Assests/esp32_dual_spi_circuit.png)
 
 2. Open the project in Arduino IDE or PlatformIO.
 3. Install the required libraries:
@@ -72,4 +79,15 @@ git clone https://github.com/yourusername/esp32-dual-spi-rf-test.git
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌟 Contribute
+
+Pull requests are welcome! Feel free to fork & improve (new obstacles, sounds, etc.).
+
+---
+
+`ESP32` `nRF24L01` `LCD` `I2C` `SPI Protocol`  `Electronics` `Hardware Projects` `C++` 
+
 
