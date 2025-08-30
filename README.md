@@ -73,9 +73,3 @@ git clone https://github.com/yourusername/esp32-dual-spi-rf-test.git
 
 This project is licensed under the [MIT License](LICENSE).
 
-```
-
-This version keeps your content intact, adds proper Markdown formatting, and improves readability on GitHub.  
-
-I can also **generate the LICENSE file with your name pre-filled** if you want. Do you want me to do that?
-```
